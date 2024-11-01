@@ -7,13 +7,18 @@
 body{
     /* background-color: black; */
 }
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
 
 #nav{
     display: grid;
     width: 800px;
     grid-template-columns: 30% 50% 20%;
     margin: 35px auto;
-    position: fixed;
+
     left: 30%;
 }
 
@@ -38,7 +43,7 @@ a:hover{
 #banner{
     background-image: url(/img/pg1.jpg);
     width: 100%;
-    height: 1200px;
+    height: 100vh;
 }
 
 .content{
@@ -168,4 +173,32 @@ h1{
 #idea-pic img {
     width: 100%;
     border: 8px solid #fff;
+}
+
+#idea-content{
+    line-height: 3;
+    letter-spacing: 10px;
+}
+
+#idea-content a{
+    color: #333;
+    border: 2px solid #333;
+    padding:10px 20px;
+    transition:0.5s;
+    font-size:14px;
+}
+
+#idea-content a:hover {
+    background-color: #333;
+    color:white
+}
+
+footer{
+    background-image: url(./img/paper.png);
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 5px;
+    color: #555;
 }
