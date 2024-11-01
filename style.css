@@ -80,7 +80,7 @@ h1{
     width: 100%;
     opacity: 0.5;
     transition: 0.7s;
-    height: 300px;
+    height: 350px;
     /* 物件適應:封面(避免圖片壓縮) */
     object-fit: cover;
     /* 物件位置:左右 上下 */
@@ -95,7 +95,7 @@ h1{
 .card h4{
     text-align: center;
     color: #6f9;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 100px;
     /* ls文字間距 */
     letter-spacing: 10px;
@@ -104,8 +104,8 @@ h1{
 .card p {
     height: 150px;
     color: #666;
-    font-weight: 100;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 19px;
     line-height: 1.5;
 }
 
@@ -130,7 +130,7 @@ h1{
     height: 500px;
     width: 800px;
     margin: 0 auto;
-    background-color: #685959;
+    /* background-color: #685959; */
     /* 文字置中 */
     text-align: center;
     position: relative;
@@ -145,7 +145,7 @@ h1{
 }
 
 #info h2 {
-    color: gold;
+    color: rgb(190, 163, 5);
     margin-bottom: 30px;
     letter-spacing: 10px;
 }
